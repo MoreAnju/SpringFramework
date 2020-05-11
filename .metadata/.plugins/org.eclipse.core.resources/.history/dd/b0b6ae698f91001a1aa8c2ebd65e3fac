@@ -1,0 +1,14 @@
+package com.spring.learning;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class HelloSpringApp {
+
+	//load spring configuration file 
+	ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicatonContext");
+	//retrieve beans from spring container
+	Coach 
+	//call me5thods on beans
+	
+	//close context
+}

@@ -1,0 +1,25 @@
+package com.spring.learning;
+
+public class TrackCoach implements Coach {
+
+	// private field for dependency
+	private FortuneService fortuneService;
+	
+	
+	public TrackCoach(FortuneService fortuneService) {
+		super();
+		this.fortuneService = fortuneService;
+	}
+
+	@Override
+	public String getDailyWorkout() {
+		return "run daily 5k";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return "Just do it" + fortuneService.getFortune();
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.spring.learning;
+
+import org.springframework.format.FormatterRegistrar;
+import org.springframework.format.FormatterRegistry;
+
+public class HappyFortuneService implements FortuneService, FormatterRegistrar {
+
+	@Override
+	public void registerFormatters(FormatterRegistry arg0) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public String getFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

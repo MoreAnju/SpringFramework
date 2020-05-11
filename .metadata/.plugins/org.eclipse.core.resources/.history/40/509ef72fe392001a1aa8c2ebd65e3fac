@@ -1,0 +1,11 @@
+package com.springAnnotation.learning;
+
+
+public class TennisCoach implements Coach {
+	@Override
+	public String getDailyWorkout() {
+		
+		return "Daily Practice for 30 min";
+	}
+
+}

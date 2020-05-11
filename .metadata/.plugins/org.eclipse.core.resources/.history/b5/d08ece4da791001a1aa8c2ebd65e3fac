@@ -1,0 +1,16 @@
+package com.spring.learning;
+
+public class BaseballCoach implements Coach {
+	@Override
+	public String  getDailyWorkout() {
+		return "spend 30 min daily for practice";
+		
+	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

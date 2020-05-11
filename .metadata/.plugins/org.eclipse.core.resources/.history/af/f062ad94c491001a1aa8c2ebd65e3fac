@@ -1,0 +1,16 @@
+package com.spring.learning;
+
+public class BeanScopeDemoApp {
+
+	public static void main(String[] args) {
+		// load configure file
+		
+		// load bean from spring container 
+		
+		// call methods 
+		
+		// close context file
+
+	}
+
+}

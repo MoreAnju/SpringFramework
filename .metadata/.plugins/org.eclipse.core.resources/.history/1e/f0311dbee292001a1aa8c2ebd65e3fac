@@ -1,0 +1,6 @@
+package com.springAnnotation.learning;
+
+public interface TennisCoach {
+
+	public String getDailyWorkout();
+}

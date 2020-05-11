@@ -1,0 +1,21 @@
+package com.spring.learning;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class SetterDemoApp {
+
+	public static void main(String[] args) {
+		//load configure file
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("application.xml");
+		
+		// retrieve  bean from spring container
+		
+		// call method
+		
+		//close configure file
+
+		
+		
+	}
+
+}

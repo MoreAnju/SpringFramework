@@ -1,0 +1,15 @@
+package com.spring.learning;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class HelloSpringApp {
+
+	//load spring configuration file 
+	ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicatonContext");
+	//retrieve beans from spring container
+	Coach theCoach = context.getBean("myCoach",Coach.class);
+	//call me5thods on beans
+	System.out.println(theCoach.getDailyWorkout());
+	//close context
+	context.close();
+}

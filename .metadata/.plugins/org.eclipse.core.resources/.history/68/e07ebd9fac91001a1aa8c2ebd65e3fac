@@ -1,0 +1,10 @@
+package com.spring.learning;
+
+public class CricketCoach {
+	
+	private FortuneService fortuneService;
+	public CricketCoach(FortuneService fortuneService) {
+		this.fortuneService= fortuneService;
+	}
+
+}
